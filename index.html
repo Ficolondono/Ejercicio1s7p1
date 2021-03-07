@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio1</title>
+	<link rel="stylesheet" href="eestilos.css">
+	<script >
+		var x =10;
+	</script>
+</head>
+<body onload="hola()">
+	<div class="pantalla"></div>
+	<div class="cuadro" id="micuadros">BIENVENIDO</div>
+	<script >
+
+		function primero()
+		{
+	chocolate=setInterval(saludo,1000);
+	 var mostrar=document.getElementById('micuadros');
+       	micuadros.innerHTML="HOLA HOLA";
+	   }
+
+
+	function saludo(){
+		console.log(x);
+		 var mostrar=document.getElementById('micuadros');
+       	micuadros.innerHTML=x;
+		x=x-1;
+		   if(x<=0){
+			   micuadros.innerHTML='Terminaste';
+		        }
+	    }
+
+	function hola(){
+		console.log("hola");
+	    setTimeout(primero,5000);
+	}
+
+
+	</script>
+	
+</body>
+</html>
+
+	
+
